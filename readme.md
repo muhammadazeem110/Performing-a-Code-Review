@@ -1,4 +1,4 @@
-`import os
+```import os
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -45,4 +45,4 @@ def prepare_smartphone_data(file_path):
 
 
 # Call the function
-cleaned_data = prepare_smartphone_data("./data/smartphones.csv")`
+cleaned_data = prepare_smartphone_data("./data/smartphones.csv")```
