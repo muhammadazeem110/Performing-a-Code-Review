@@ -59,10 +59,10 @@ def prepare_smartphone_data(file_path):
 
 
 # Call the function
-cleaned_data = prepare_smartphone_data("./data/smartphones.csv")```
+cleaned_data = prepare_smartphone_data("./data/smartphones.csv")
  
 
-```import seaborn as sns
+import seaborn as sns
 import matplotlib.pyplot as plt
 
 
@@ -106,7 +106,8 @@ def visualize_versus_price(clean_data, x):
     
     
 # Call the visualize_versus_price function
-visualize_versus_price(cleaned_data, "processor_speed")```
+visualize_versus_price(cleaned_data, "processor_speed")
+```
 
 ![alt text](image.png)
 
