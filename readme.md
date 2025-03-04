@@ -60,7 +60,6 @@ def prepare_smartphone_data(file_path):
 
 # Call the function
 cleaned_data = prepare_smartphone_data("./data/smartphones.csv")```
-
  
 
 ```import seaborn as sns
@@ -107,8 +106,7 @@ def visualize_versus_price(clean_data, x):
     
     
 # Call the visualize_versus_price function
-visualize_versus_price(cleaned_data, "processor_speed")
-```
+visualize_versus_price(cleaned_data, "processor_speed")```
 
 ![alt text](image.png)
 
@@ -136,10 +134,10 @@ def test_nan_values(clean_smartphone_data):
     assert not clean_smartphone_data["os"].isnull().sum() == 0
 
     
-ipytest.run("-qq")```
+ipytest.run("-qq")
 
 #### Error message:
-```F                                                                                            [100%]
+F                                                                                            [100%]
 ============================================= FAILURES =============================================
 _________________________________________ test_nan_values __________________________________________
 
